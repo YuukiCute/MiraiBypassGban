@@ -1,4 +1,4 @@
-module.exports.config = {
+﻿module.exports.config = {
 	name: "help",
 	version: "1.0.2",
 	hasPermssion: 0,
@@ -8,8 +8,8 @@ module.exports.config = {
 	usages: "[Tên module]",
 	cooldowns: 5,
 	envConfig: {
-		autoUnsend: true,
-		delayUnsend: 10
+		autoUnsend: false,
+		delayUnsend: 600
 	}
 };
 
